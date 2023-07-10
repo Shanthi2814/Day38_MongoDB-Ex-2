@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "64ab9e882435863f5a139858"
+  },
+  "taskID": 1,
+  "userID": 1,
+  "topicID": 1,
+  "task_title": "HTML task",
+  "due_date": {
+    "$date": "2020-10-04T18:30:00.000Z"
+  },
+  "submission": true
+},
+{
+  "_id": {
+    "$oid": "64ab9e882435863f5a139859"
+  },
+  "taskID": 2,
+  "userID": 2,
+  "topicID": 2,
+  "task_title": "CSS task",
+  "due_date": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  },
+  "submission": true
+},
+{
+  "_id": {
+    "$oid": "64ab9e882435863f5a13985a"
+  },
+  "taskID": 3,
+  "userID": 3,
+  "topicID": 3,
+  "task_title": "Javascript task",
+  "due_date": {
+    "$date": "2020-10-18T00:00:00.000Z"
+  },
+  "submission": false
+},
+{
+  "_id": {
+    "$oid": "64ab9f892435863f5a13985b"
+  },
+  "taskID": 4,
+  "userID": 4,
+  "topicID": 4,
+  "task_title": "ReactJS task",
+  "due_date": {
+    "$date": "2020-10-23T00:00:00.000Z"
+  },
+  "submission": true
+},
+{
+  "_id": {
+    "$oid": "64ab9f892435863f5a13985c"
+  },
+  "taskID": 5,
+  "userID": 5,
+  "topicID": 5,
+  "task_title": "NodeJS task",
+  "due_date": {
+    "$date": "2020-10-31T00:00:00.000Z"
+  },
+  "submission": false
+}]
