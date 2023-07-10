@@ -1,0 +1,261 @@
+
+// Users Details
+db.users.find();
+{
+  _id: ObjectId("64aae36d08d66702a1cf26f5"),
+  userID: 1,
+  name: 'Priya A',
+  email: 'priya@gmail.com',
+  mentorID: 1
+}
+{
+  _id: ObjectId("64aae36d08d66702a1cf26f6"),
+  userId: 2,
+  name: 'Nithya P',
+  email: 'nithya@gmail.com',
+  mentorID: 2
+}
+{
+  _id: ObjectId("64aae36d08d66702a1cf26f7"),
+  userID: 3,
+  name: 'Malathi M',
+  email: 'malathi@gmail.com',
+  mentorID: 3
+}
+{
+  _id: ObjectId("64aae36d08d66702a1cf26f8"),
+  userID: 4,
+  name: 'Anitha R',
+  email: 'anitha@gmail.com',
+  mentorID: 4
+}
+{
+  _id: ObjectId("64aae36d08d66702a1cf26f9"),
+  userID: 5,
+  name: 'preethi H',
+  email: 'preethi@gmail.com',
+  mentorID: 5
+}
+
+//Codekata Details
+
+
+db.codekata.find();
+{
+  _id: ObjectId("64aae50f08d66702a1cf26fb"),
+  userID: 1,
+  problem_solved: 120
+}
+{
+  _id: ObjectId("64aae50f08d66702a1cf26fc"),
+  userID: 2,
+  problem_solved: 50
+}
+{
+  _id: ObjectId("64aae50f08d66702a1cf26fd"),
+  userID: 3,
+  problem_solved: 76
+}
+{
+  _id: ObjectId("64aae50f08d66702a1cf26fe"),
+  userID: 4,
+  problem_solved: 254
+}
+{
+  _id: ObjectId("64aae50f08d66702a1cf26ff"),
+  userID: 5,
+  problem_solved: 37
+}
+
+// Attendance details
+
+
+db.attendance.find();
+{
+  _id: ObjectId("64aae63508d66702a1cf2700"),
+  userID: 1,
+  present: true,
+  topicID: 1
+}
+{
+  _id: ObjectId("64aae63508d66702a1cf2701"),
+  userID: 2,
+  present: false,
+  topicID: 2
+}
+{
+  _id: ObjectId("64aae63508d66702a1cf2702"),
+  userID: 3,
+  present: true,
+  topicID: 3
+}
+{
+  _id: ObjectId("64aae63508d66702a1cf2703"),
+  userID: 4,
+  present: false,
+  topicID: 4
+}
+{
+  _id: ObjectId("64aae63508d66702a1cf2704"),
+  userID: 5,
+  present: true,
+  topicID: 5
+}
+
+
+// Topics Details
+
+
+db.topic.find();
+{
+  _id: ObjectId("64ab9c132435863f5a139853"),
+  topicID: 1,
+  topic: 'HTML',
+  topic_date: 2020-10-01T00:00:00.000Z
+}
+{
+  _id: ObjectId("64ab9c132435863f5a139854"),
+  topicID: 2,
+  topic: 'CSS',
+  topic_date: 2020-10-10T00:00:00.000Z
+}
+{
+  _id: ObjectId("64ab9c132435863f5a139855"),
+  topicID: 3,
+  topic: 'Javascript',
+  topic_date: 2020-10-16T00:00:00.000Z
+}
+{
+  _id: ObjectId("64ab9c132435863f5a139856"),
+  topicID: 4,
+  topic: 'ReactJS',
+  topic_date: 2020-10-20T00:00:00.000Z
+}
+{
+  _id: ObjectId("64ab9c132435863f5a139857"),
+  topicID: 5,
+  topic: 'NodeJS',
+  topic_date: 2020-10-25T00:00:00.000Z
+}
+
+
+// Task Details.
+
+
+db.task.find();
+{
+  _id: ObjectId("64ab9e882435863f5a139858"),
+  taskID: 1,
+  userID: 1,
+  topicID: 1,
+  task_title: 'HTML task',
+  due_date: 2020-10-04T18:30:00.000Z,
+  submission: true
+}
+{
+  _id: ObjectId("64ab9e882435863f5a139859"),
+  taskID: 2,
+  userID: 2,
+  topicID: 2,
+  task_title: 'CSS task',
+  due_date: 2020-10-13T00:00:00.000Z,
+  submission: true
+}
+{
+  _id: ObjectId("64ab9e882435863f5a13985a"),
+  taskID: 3,
+  userID: 3,
+  topicID: 3,
+  task_title: 'Javascript task',
+  due_date: 2020-10-18T00:00:00.000Z,
+  submission: false
+}
+{
+  _id: ObjectId("64ab9f892435863f5a13985b"),
+  taskID: 4,
+  userID: 4,
+  topicID: 4,
+  task_title: 'ReactJS task',
+  due_date: 2020-10-23T00:00:00.000Z,
+  submission: true
+}
+{
+  _id: ObjectId("64ab9f892435863f5a13985c"),
+  taskID: 5,
+  userID: 5,
+  topicID: 5,
+  task_title: 'NodeJS task',
+  due_date: 2020-10-31T00:00:00.000Z,
+  submission: false
+}
+
+//  Company drives details //
+
+
+db.company_drives.find();
+{
+  _id: ObjectId("64aba1a52435863f5a13985d"),
+  userID: 1,
+  company_drive_date: 2020-10-04T18:30:00.000Z,
+  company_name: 'Google'
+}
+{
+  _id: ObjectId("64aba1a52435863f5a13985e"),
+  userID: 2,
+  company_drive_date: 2020-10-15T00:00:00.000Z,
+  company_name: 'Wipro'
+}
+{
+  _id: ObjectId("64aba1a52435863f5a13985f"),
+  userID: 3,
+  company_drive_date: 2020-10-18T00:00:00.000Z,
+  company_name: 'Amazon'
+}
+{
+  _id: ObjectId("64aba2502435863f5a139860"),
+  userID: 4,
+  company_drive_date: 2020-10-24T00:00:00.000Z,
+  company_name: 'HCL'
+}
+{
+  _id: ObjectId("64aba2502435863f5a139861"),
+  userID: 5,
+  company_drive_date: 2020-10-27T00:00:00.000Z,
+  company_name: 'TCS'
+}
+
+//Mentors details
+
+db.mentors.find();
+{
+  _id: ObjectId("64aba42c2435863f5a139862"),
+  mentorID: 1,
+  mentor_name: 'Naga',
+  mentee_count: 60
+}
+{
+  _id: ObjectId("64aba42c2435863f5a139863"),
+  mentorID: 2,
+  mentor_name: 'Sathish',
+  mentee_count: 77
+}
+{
+  _id: ObjectId("64aba42c2435863f5a139864"),
+  mentorID: 3,
+  mentor_name: 'Akbar',
+  mentee_count: 80
+}
+{
+  _id: ObjectId("64aba42c2435863f5a139865"),
+  mentorID: 4,
+  mentor_name: 'Ruban',
+  mentee_count: 103
+}
+{
+  _id: ObjectId("64aba42c2435863f5a139866"),
+  mentorID: 5,
+  mentor_name: 'Sangeetha',
+  mentee_count: 84
+}
+
+
